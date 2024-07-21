@@ -30,8 +30,10 @@ export default {
     colors: {
       white: "#fff",
       black: "#000",
-      yellow: "#e9d5a1",
-      "gray-dark": "#353239",
+      yellow: "#EEEEEE",
+      grayDark: "#353239",
+      lightBlue: "#3572EF",
+      darkBlue: "#17153B",
       body: "#212529",
       gray: "#8492a6",
       "gray-light": "#d3dce6",

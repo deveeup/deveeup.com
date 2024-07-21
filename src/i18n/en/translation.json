@@ -23,45 +23,48 @@
   },
   "about_me": {
     "title": "About me",
-    "greeting": "Hi",
-    "content": " 👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "greeting": "👋 Hey!",
+    "content": " I'm Front-End Developer with +7 years of experience providing IT solutions for public and private organizations using JavaScript and NodeJS, good infrastructure management. With the aim of contributing to the creation of world-class software solutions together with dynamic and high-performance teams. More than 3 years leading teams under Scrum methodology.",
     "image": "myProfile.jpg",
-    "tech_stacks": ["devicon:angular", "devicon:react", "devicon:vuejs"]
+    "tech_stacks": ["devicon:javascript", "devicon:react", "devicon:nodejs",  "devicon:amazonwebservices-wordmark"]
   },
   "projects": {
     "title": "projects",
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "National Football League",
+        "startDate": "Now",
+        "description": "OTT Application, NFL+ It is a streaming application where users can enjoy live content, replays, games, events, series, etc. Technically it is a monorepo built with Vanilla Javascript, React Native, React, Typescript. The monorepo is designed to share code on different platforms. We have published the application in different stores such as LG Store, Vizio Store, Samsung Store with the aim that different users of TV platforms can download and use the application.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/projects/NFL.jpg",
+          "images/portfolio/projects/NFL-1.png",
+          "images/portfolio/projects/NFL-2.png",
+          "images/portfolio/projects/NFL-3.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "mdi:angular",
-            "name": "Angular"
+            "class": "teenyicons:javascript-outline",
+            "name": "JavaScript"
+          },
+          {
+            "class": "mdi:react",
+            "name": "React"
           },
           {
             "class": "teenyicons:typescript-outline",
             "name": "TypeScript"
-          },
-          {
-            "class": "devicon:csharp",
-            "name": "C#"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Warner Bros. Discovery",
+        "startDate": "2022",
+        "description": "OTT Application, Warner Bros Discovery is the result of the merger of Warner Bros together with Discovery+ In this project I had the opportunity to work on the OTT application published in stores such as LG Store / Vizio Store, as well as on the website wbd.com The OTT application was definitely a challenge to meet the requirements of accessibility, performance, user experience, among others, whose goal was always to provide the user with an incredible experience",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/projects/WarnerBros.jpg",
+          "images/portfolio/projects/WBD-1.png",
+          "images/portfolio/projects/WBD-2.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -72,30 +75,39 @@
           {
             "class": "teenyicons:javascript-outline",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-plain:typescript",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-plain:nodejs-wordmark",
+            "name": "NodeJS"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Discovery+",
+        "startDate": "2021",
+        "description": "OTT Application, Discovery+ is a streaming platform which was purchased by Warner Bros. A monorepo that shares code with different platforms, here I had the opportunity to work in different teams such as Vizio Team / LG Team / Web Team. I participated in different features, especially voice recognition, new user experience, video performance, among others. I also had the opportunity to work on bug fixes, implementation of TTS (Text to Speech) whose objective was to provide a similar experience to users with visual and hearing disabilities.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/projects/discovery+.jpg",
+          "images/portfolio/projects/DP-1.png",
+          "images/portfolio/projects/DP-2.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "mdi:angular",
-            "name": "Angular"
+            "class": "teenyicons:javascript-outline",
+            "name": "JavaScript"
           },
           {
             "class": "teenyicons:typescript-outline",
             "name": "TypeScript"
           },
           {
-            "class": "devicon:csharp",
-            "name": "C#"
+            "class": "devicon-plain:nodejs-wordmark",
+            "name": "NodeJS"
           }
         ]
       }
@@ -115,8 +127,8 @@
         "level": "95"
       },
       {
-        "name": "Angular",
-        "class": "mdi:angular",
+        "name": "React",
+        "class": "mdi:react",
         "level": "80"
       },
       {
@@ -130,24 +142,19 @@
         "level": "70"
       },
       {
-        "name": "Sass",
-        "class": "la:sass",
+        "name": "Aws",
+        "class": "la:aws",
         "level": "75"
       },
       {
-        "name": "Bootstrap",
-        "class": "ri:bootstrap-fill",
-        "level": "85"
+        "name": "Firebase",
+        "class": "devicon-plain:firebase",
+        "level": "75"
       },
       {
-        "name": "C#",
-        "class": "devicon-plain:csharp",
-        "level": "65"
-      },
-      {
-        "name": "MySql",
-        "class": "fontisto:mysql",
-        "level": "60"
+        "name": "NodeJS",
+        "class": "la:node",
+        "level": "75"
       }
     ]
   },

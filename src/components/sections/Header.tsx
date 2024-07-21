@@ -15,11 +15,11 @@ const Header = () => {
 
   return (
     <>
-      <header className="h-[650px] w-[100%] bg-yellow dark:bg-[#494949]">
+      <header className="h-[650px] w-[100%] bg-lightBlue dark:bg-darkBlue">
         <div className="flex h-full flex-col items-center justify-center gap-5">
           <div>
             <Icon
-              className="text-gray-dark"
+              className="text-dark dark:text-white"
               icon="la:laptop-code"
               style={{
                 height: "100%",
@@ -28,7 +28,7 @@ const Header = () => {
             />
           </div>
 
-          <h1 className="text-4xl font-bold text-gray-dark dark:text-white">
+          <h1 className="text-4xl font-bold text-dark dark:text-white">
             {t("basic_info.name")}
           </h1>
 
@@ -38,22 +38,21 @@ const Header = () => {
             )}
             wrapper="span"
             speed={50}
-            className="text-regular text-2xl text-gray-dark dark:text-white"
+            className="text-regular text-2xl text-dark dark:text-white"
             repeat={Infinity}
           />
-
           <Switch
             checked={darkTheme}
             onChange={toggleTheme}
-            offColor="#baaa80"
-            onColor="#353535"
+            offColor="#17153B"
+            onColor="#3572EF"
             className="react-switch mx-auto"
             width={90}
             height={40}
             uncheckedIcon={
               <Icon
                 className="ml-5 h-full text-end text-[25px] text-gray-dark"
-                icon="twemoji:owl"
+                icon="noto-v1:first-quarter-moon-face"
               />
             }
             checkedIcon={
@@ -66,22 +65,22 @@ const Header = () => {
         </div>
       </header>
 
-      <div className="flex justify-center gap-5 bg-yellow pb-2.5 pt-20 dark:bg-[#494949]">
+      <div className="flex justify-center gap-5 bg-yellow pb-3 pt-3 dark:bg-grayDark">
         <Icon
           className={clsx(
-            "h-full cursor-pointer text-[50px] text-gray-dark ",
+            "cursor-pointer text-[50px] text-gray-dark",
             i18n.language === "en" && "brightness-50",
           )}
-          icon="twemoji-flag-for-flag-united-kingdom"
+          icon="twemoji-flag-for-flag-united-states"
           onClick={() => i18n.changeLanguage("en")}
         />
         <Icon
           className={clsx(
-            "h-full cursor-pointer text-[50px] text-gray-dark ",
-            i18n.language === "pl" && "brightness-50",
+            "cursor-pointer text-[50px] text-gray-dark",
+            i18n.language === "es" && "brightness-50",
           )}
-          icon="twemoji-flag-for-flag-poland"
-          onClick={() => i18n.changeLanguage("pl")}
+          icon="twemoji-flag-for-spain"
+          onClick={() => i18n.changeLanguage("es")}
         />
       </div>
     </>

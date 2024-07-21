@@ -15,9 +15,9 @@ const AboutMe = () => {
           <div className="mb-[30px] mt-[55px] inline-block p-4 pb-10 shadow-card ">
             <img
               src={`images/${t("about_me.image")}`}
-              alt="Profile"
+              alt="David Camacho"
               height="250px"
-              className="w-[200px]"
+              className="w-[300px] dark:brightness-75"
             />
             <div className="mt-3 flex justify-between">
               {t("about_me.tech_stacks", { returnObjects: true })?.map(
@@ -49,9 +49,8 @@ const AboutMe = () => {
                 lineHeight: "200%",
               }}
             >
-              <br />
               <span className="text-xl font-medium dark:text-white">
-                {t("about_me.greeting")} :){" "}
+                {t("about_me.greeting")}
               </span>
               <br />
               <br />

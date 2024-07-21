@@ -12,7 +12,6 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p className="py-2 text-xs">{t("copyright")} &copy; Mahmudul Alam</p>
     </footer>
   );
 };

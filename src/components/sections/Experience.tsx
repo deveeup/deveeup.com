@@ -20,7 +20,7 @@ const Experience = () => {
 
   return (
     <section className="bg-yellow px-3 py-10 pb-20 dark:bg-[#494949] md:px-0">
-      <h2 className="py-10 text-center text-xl font-medium uppercase tracking-widest text-white">
+      <h2 className="py-10 text-center text-xl font-medium uppercase tracking-widest text-[#17153B] ">
         {t("experience.title")}
       </h2>
 
