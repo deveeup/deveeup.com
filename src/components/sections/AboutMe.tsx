@@ -6,7 +6,7 @@ const AboutMe = () => {
 
   return (
     <section className="py-5 dark:bg-[#7f7f7f] md:py-10">
-      <h2 className="text-center text-xl font-medium uppercase tracking-widest ">
+      <h2 className="text-center text-xl font-medium uppercase tracking-widest dark:text-white">
         {t("about_me.title")}
       </h2>
 

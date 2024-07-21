@@ -162,32 +162,34 @@
     "title": "Experience",
     "experiences": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": "Angular 8/9/10",
-        "mainTechIcon": "mdi:angular",
+        "company": "Globant",
+        "title": "Senior Web UI Developer",
+        "years": "May 2021 - Present",
+        "mainTech": "FrontEnd Developer",
+        "mainTechIcon": "mdi:react",
         "technologies": [
-          "REST API",
           "RxJS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Typescript",
+          "REST API"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": "React",
+        "company": "Amaris Consulting",
+        "title": "Technical Lead",
+        "years": "Dec 2019 - May 2021",
+        "mainTech": "Software developer / Technical Lead",
         "mainTechIcon": "mdi:react",
-        "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+        "technologies": ["RxJS", "Angular", "AWS", "JavaScript", "Typescript"]
+      },
+      {
+        "company": "Litsor Pub",
+        "title": "Technical Lead",
+        "years": "Aug 2017 - Nov 2019",
+        "mainTech": "Software developer / Technical Lead",
+        "mainTechIcon": "mdi:react",
+        "technologies": ["PHP", "Django", "GCP", "JavaScript", "Typescript"]
       }
     ]
-  },
-  "copyright": "Copyright"
+  }
 }

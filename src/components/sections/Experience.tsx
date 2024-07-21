@@ -19,8 +19,8 @@ const Experience = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-yellow px-3 py-10 pb-20 dark:bg-[#494949] md:px-0">
-      <h2 className="py-10 text-center text-xl font-medium uppercase tracking-widest text-[#17153B] ">
+    <section className="bg-yellow px-3 py-10 pb-20 dark:bg-grayDark md:px-0">
+      <h2 className="py-10 text-center text-xl font-medium uppercase tracking-widest dark:text-white text-[#17153B] ">
         {t("experience.title")}
       </h2>
 
@@ -30,7 +30,7 @@ const Experience = () => {
             key={exp.title}
             date={exp.years}
             dateClassName="dark:text-white"
-            iconClassName="bg-[#AE944F] text-white dark:bg-[#919191]"
+            iconClassName="bg-[#3572EF] text-white dark:bg-[#919191]"
             icon={<Icon icon={exp.mainTechIcon} />}
             className="dark:brightness-80 dark:filter"
 
@@ -47,10 +47,10 @@ const Experience = () => {
             </div>
           </VerticalTimelineElement>
         ))}
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           iconClassName="bg-[#AE944F] text-white dark:bg-[#919191]"
           icon={<Icon icon="eos-icons:hourglass" />}
-        />
+        /> */}
       </VerticalTimeline>
     </section>
   );

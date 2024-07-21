@@ -22,7 +22,7 @@
     ]
   },
   "about_me": {
-    "title": "About me",
+    "title": "Sobre mi",
     "greeting": "👋 Hola!",
     "content": "Soy Desarrollador Front-End con 7 años de experiencia brindando soluciones tecnológicas para organizaciones públicas y privadas utilizando JavaScript y NodeJS, buena gestión de infraestructura. Con el objetivo de contribuir a la creación de soluciones de software junto con equipos dinámicos y de alto desempeño. Más de 3 años liderando equipos bajo metodología Scrum.",
     "image": "myProfile.jpg",
@@ -162,32 +162,34 @@
     "title": "Experiencia",
     "experiences": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": "Angular 8/9/10",
-        "mainTechIcon": "mdi:angular",
+        "company": "Globant",
+        "title": "Senior Web UI Developer",
+        "years": "May 2021 - Actualidad",
+        "mainTech": "FrontEnd Developer",
+        "mainTechIcon": "mdi:react",
         "technologies": [
-          "REST API",
           "RxJS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Typescript",
+          "REST API"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": "React",
+        "company": "Amaris Consulting",
+        "title": "Líder Técnico",
+        "years": "Dic 2019 - May 2021",
+        "mainTech": "Desarrollador de software / Líder Técnico",
         "mainTechIcon": "mdi:react",
-        "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+        "technologies": ["RxJS", "Angular", "AWS", "JavaScript", "Typescript"]
+      },
+      {
+        "company": "Litsor Pub",
+        "title": "Líder Técnico",
+        "years": "Ago 2017 - Nov 2019",
+        "mainTech": "Desarrollador de software / Líder Técnico",
+        "mainTechIcon": "mdi:react",
+        "technologies": ["PHP", "Django", "GCP", "JavaScript", "Typescript"]
       }
     ]
-  },
-  "copyright": "Copyright"
+  }
 }
