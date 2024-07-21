@@ -2,67 +2,69 @@
   "basic_info": {
     "name": "David Camacho",
     "titles": [
-      "Programista front-endu",
-      "Starszy inżynier danych",
-      "Lider zespołu deweloperskiego",
-      "Programista aplikacji mobilnych"
+      "Front-End Developer",
+      "Senior Web UI Developer",
+      "MERN Full Stack Dev"
     ],
     "socials": [
       {
         "icon": "mdi:linkedin",
-        "url": "https://www.linkedin.com/in/devmahmud"
+        "url": "https://www.linkedin.com/in/deveeup/"
       },
       {
         "icon": "mdi:github",
-        "url": "https://github.com/devmahmud"
+        "url": "https://github.com/deveeup"
       },
       {
         "icon": "mdi:twitter",
-        "url": "https://twitter.com/expeliermers"
+        "url": "https://twitter.com/deveeup"
       }
     ]
   },
   "about_me": {
-    "title": "O mnie",
-    "greeting": "Cześć",
-    "content": " Jestem Davina Griss. Fikcyjna osoba dla celów poglądowych :) Pracuję z najnowszymi frameworkami front-endowymi, takimi jak Angular, React i Vue. To, co teraz widzisz, to szablon portfolio od Dorota1997. Jeśli podoba Ci się ten szablon portfolio, pamiętaj o ⭐ repozytorium, aby było bardziej rozpoznawalne dla innych użytkowników. Dziękuję 💜",
+    "title": "About me",
+    "greeting": "👋 Hola!",
+    "content": "Soy Desarrollador Front-End con 7 años de experiencia brindando soluciones tecnológicas para organizaciones públicas y privadas utilizando JavaScript y NodeJS, buena gestión de infraestructura. Con el objetivo de contribuir a la creación de soluciones de software junto con equipos dinámicos y de alto desempeño. Más de 3 años liderando equipos bajo metodología Scrum.",
     "image": "myProfile.jpg",
-    "tech_stacks": ["devicon:javascript", "devicon:react", "devicon:amazonwebservices-wordmark"]
+    "tech_stacks": ["devicon:javascript", "devicon:react", "devicon:nodejs",  "devicon:amazonwebservices-wordmark"]
   },
   "projects": {
-    "title": "projektowanie",
+    "title": "Proyectos",
     "projects": [
       {
-        "title": "Schronisko dla zwierząt",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja z jaką miałem okazję pracować. Nauczyłem się wielu technologii, a mój kod został sprawdzony przez świetnego kuratora. Aplikacja obsługuje wszystkie procesy adopcyjne oraz umożliwia przechowywanie wszelkich dowodów adopcji zwierząt ze schroniska.",
+        "title": "National Football League",
+        "startDate": "Actualmente",
+        "description": "Aplicación OTT, NFL+ Es una aplicación de streaming donde los usuarios pueden disfrutar de contenido en vivo, repeticiones, juegos, eventos, series, etc. Técnicamente es un monorepo construido con Vanilla Javascript, React Native, React, Typescript. El monorepo está diseñado para compartir código en diferentes plataformas. Hemos publicado la aplicación en diferentes tiendas como LG Store, Vizio Store, Samsung Store con el objetivo de que diferentes usuarios de plataformas de TV puedan descargar y utilizar la aplicación.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/projects/NFL.jpg",
+          "images/portfolio/projects/NFL-1.png",
+          "images/portfolio/projects/NFL-2.png",
+          "images/portfolio/projects/NFL-3.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "mdi:angular",
-            "name": "Angular"
+            "class": "teenyicons:javascript-outline",
+            "name": "JavaScript"
+          },
+          {
+            "class": "mdi:react",
+            "name": "React"
           },
           {
             "class": "teenyicons:typescript-outline",
             "name": "TypeScript"
-          },
-          {
-            "class": "devicon:csharp",
-            "name": "C#"
           }
         ]
       },
       {
-        "title": "Fotografia",
-        "startDate": "2018",
-        "description": "Projekt osobisty dla przedmiotu studiów. Byłem odpowiedzialny za testowanie aplikacji fotograficznej optymalizującej zdjęcia za pomocą popularnych algorytmów używanych przez edytory graficzne, takie jak Pixlr czy Adobe Photoshop. Zasłużyłem na ocenę A :)",
+        "title": "Warner Bros. Discovery",
+        "startDate": "2022",
+        "description": "Aplicación OTT, Warner Bros Discovery es el resultado de la fusión de Warner Bros junto con Discovery+ En este proyecto tuve la oportunidad de trabajar en la aplicación OTT publicada en tiendas como LG Store / Vizio Store, así como en el sitio web wbd. com La aplicación OTT definitivamente fue un desafío para cumplir con los requisitos de accesibilidad, rendimiento, experiencia de usuario, entre otros, cuyo objetivo siempre fue brindarle al usuario una experiencia increíble.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/projects/WarnerBros.jpg",
+          "images/portfolio/projects/WBD-1.png",
+          "images/portfolio/projects/WBD-2.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -73,37 +75,46 @@
           {
             "class": "teenyicons:javascript-outline",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-plain:typescript",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-plain:nodejs-wordmark",
+            "name": "NodeJS"
           }
         ]
       },
       {
-        "title": "Przeglądarka obiektów 3D",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji, nad którymi pracowałem na moim stażu. Musiałem opracować implementację front-end dla aplikacji, która pokazuje modele 3D znanych budynków. Był to również mój pierwszy projekt w frameworku Angular. Dużo się nauczyłem!",
+        "title": "Discovery+",
+        "startDate": "2021",
+        "description": "Aplicación OTT, Discovery+ es una plataforma de streaming la cual fue comprada por Warner Bros. Un monorepo que comparte código con diferentes plataformas, aquí tuve la oportunidad de trabajar en diferentes equipos como Vizio Team / LG Team / Web Team. Participé en diferentes funcionalidades, especialmente reconocimiento de voz, nueva experiencia de usuario, rendimiento de video, entre otras. También tuve la oportunidad de trabajar en corrección de errores, implementación de TTS (Text to Speech) cuyo objetivo era brindar una experiencia similar a usuarios con discapacidad visual y auditiva.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/projects/discovery+.jpg",
+          "images/portfolio/projects/DP-1.png",
+          "images/portfolio/projects/DP-2.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "mdi:angular",
-            "name": "Angular"
+            "class": "teenyicons:javascript-outline",
+            "name": "JavaScript"
           },
           {
             "class": "teenyicons:typescript-outline",
             "name": "TypeScript"
           },
           {
-            "class": "devicon:csharp",
-            "name": "C#"
+            "class": "devicon-plain:nodejs-wordmark",
+            "name": "NodeJS"
           }
         ]
       }
     ]
   },
   "skills": {
-    "title": "Umiejętności",
+    "title": "Habilidades",
     "icons": [
       {
         "name": "HTML 5",
@@ -116,8 +127,8 @@
         "level": "95"
       },
       {
-        "name": "Angular",
-        "class": "mdi:angular",
+        "name": "React",
+        "class": "mdi:react",
         "level": "80"
       },
       {
@@ -131,34 +142,29 @@
         "level": "70"
       },
       {
-        "name": "Sass",
-        "class": "la:sass",
+        "name": "Aws",
+        "class": "la:aws",
         "level": "75"
       },
       {
-        "name": "Bootstrap",
-        "class": "ri:bootstrap-fill",
-        "level": "85"
+        "name": "Firebase",
+        "class": "devicon-plain:firebase",
+        "level": "75"
       },
       {
-        "name": "C#",
-        "class": "devicon-plain:csharp",
-        "level": "65"
-      },
-      {
-        "name": "MySql",
-        "class": "fontisto:mysql",
-        "level": "60"
+        "name": "NodeJS",
+        "class": "la:node",
+        "level": "75"
       }
     ]
   },
   "experience": {
-    "title": "Doświadczenie",
+    "title": "Experiencia",
     "experiences": [
       {
         "company": "DefOpenSource",
-        "title": "Programista front-endu",
-        "years": "10.2019 - obecnie",
+        "title": "Front-End Developer",
+        "years": "10.2019 - present",
         "mainTech": "Angular 8/9/10",
         "mainTechIcon": "mdi:angular",
         "technologies": [
@@ -175,7 +181,7 @@
       },
       {
         "company": "Serros Solutions",
-        "title": "Stażysta",
+        "title": "Intern",
         "years": "01.2018 - 09.2019",
         "mainTech": "React",
         "mainTechIcon": "mdi:react",
@@ -183,5 +189,5 @@
       }
     ]
   },
-  "copyright": "Prawo autorskie"
+  "copyright": "Copyright"
 }
